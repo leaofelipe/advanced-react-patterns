@@ -1,0 +1,23 @@
+{
+  "name": "advanced-react-patterns",
+  "author": "Felipe Leão <felipe@felipeleao.com> (http://felipeleao.com/)",
+  "private": true,
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leaofelipe/advanced-react-patterns"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
